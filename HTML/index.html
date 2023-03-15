@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Tugas Kelompok 5 CSS </title>
-    
-    </head>
+  <head>
+    <title>Tugas Kelompok 5 CSS</title>
+    <link rel="stylesheet" href="CSS/accessories.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  </head>
 
+<<<<<<< HEAD
+  <body>
+    <div>
+      <ul class="topnav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#news">Jacket</a></li>
+        <li><a href="#contact">Shoes</a></li>
+        <li><a href="#about">T-Shirt</a></li>
+        <li><a href="#about">Long Pants</a></li>
+        <li><a href="accessories.html">Accessories</a></li>
+      </ul>
+    </div>
+=======
     <body bgcolor="white">
     
         <center>
@@ -13,15 +27,73 @@
                 <table border="0" width="50%" align="center">
                     <tr>
                       <td><a href="index.html"></a>Home</td>
+>>>>>>> ea5d7e9528182863ae5bab4cf0173826e470e469
 
-                      <td><a href="index.html"></a>Apparel</td>
+    <header>
+      <table style="border: 0; width: 100%; height: 375px;">
+        <tr>
+          <td><img src="../image/dazzle.png" width="100%"></img></td>
+        </tr>
+      </table>
+    </header>
+    <main>
+      <table style="width: 100%; height: 300px">
+        <tr>
+          <td style="width: 75%; padding-left: 4%; padding-right: 5%">
+            <h1 style="font-family: Arial Narrow">Dazzle</h1>
+            <hr align="left" width="160px" size="3" color="black">
+            <p style="font-family: Arial Narrow; text-align: justify; font-size: 20pt">
+              Dazzle merupakan Website gallery yang berfokus pada fashion. Website ini menampilkan koleksi dari berbagai peragaan busana, baik yang digelar di dalam maupun luar negeri. 
+              Setiap kali sebuah peragaan busana digelar, Dzzle selalu hadir dengan berita dan foto-foto terbaru yang memberikan informasi mengenai koleksi-koleksi yang ditampilkan.
+              "Kunjungi website gallery kami untuk mengetahui tren fashion terbaru dan temukan outfit yang sesuai dengan gaya Anda."
+          </td>
+          <td>
+            <p>
+              <table style="border: 0; width: 250px; height: 250px; background-color: #5b5f5a">
+                <tr>
+                  <td style="text-align: center; font-size: 25pt">
+                    <div class="w3-content w3-display-container">
+                      <img class="mySlides" src="../image/accessories1.jpg" style="width: 100%" />
+                      <img class="mySlides" src="../image/accessories2.jpg" style="width: 100%" />
+                      <a target="" href="../image/accessories3.jfif"><img target="accessories3" class="mySlides" src="../image/accessories3.jfif" style="width: 100%" /></a>
 
-                      <td><a href="index.html"></a>Shoes</td>
+                      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </p>
+          </td>
+        </tr>
+      </table>
+    </main>
 
-                      <td><a href="index.html"></a>T-sirt</td>
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
 
-                      <td><a href="index.html"></a>Long Pants</td>
+      function plusDivs(n) {
+        showDivs((slideIndex += n));
+      }
 
+<<<<<<< HEAD
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = x.length;
+        }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        x[slideIndex - 1].style.display = "block";
+      }
+    </script>
+=======
                       <td><a href="index.html"></a>Accesories</td>
                     </tr>
                 </font>
@@ -78,5 +150,12 @@
       </table>
 
     </body>
+>>>>>>> ea5d7e9528182863ae5bab4cf0173826e470e469
 
+    <div class="footer">
+      <footer>
+        <p>&copy; Dazzle</p>
+      </footer>
+    </div>
+  </body>
 </html>
